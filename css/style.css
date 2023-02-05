@@ -1,0 +1,102 @@
+/*----------------Reset-------------*/
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul,
+ol,
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+}
+textarea,
+button,
+input {
+	font-weight: inherit;
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+button {
+	cursor: pointer;
+	background-color: inherit;
+   border: none;
+}
+/*-----------------------------*/
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	color: #495057;
+}
+/*-----------------------------*/
+.wrapper {
+
+}
+/*-----------------------------*/
+.page {
+
+}
+
+/*-----------------------------*/
+.articles {
+	padding-top: 3.75rem;
+	padding-bottom: 3.75rem;
+}
+.articles__container {
+	min-width: 79.375rem;
+	margin: 0 auto;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+}
+.articles__title {
+}
+.articles__filter {
+}
+.filter-articles {
+}
+.filter-articles__item {
+}
+.active {
+}
+.articles__items {
+}
+.articles__item {
+}
+.article {
+}
+.article__image {
+}
+.article__body {
+}
+.article__date {
+}
+.article__title {
+}
+.article__link-title {
+}
+.article__text {
+}
