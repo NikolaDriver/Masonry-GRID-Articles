@@ -53,9 +53,7 @@ body {
 	color: #495057;
 }
 /*-----------------------------*/
-.wrapper {
 
-}
 /*-----------------------------*/
 .page {
 
@@ -67,7 +65,7 @@ body {
 	padding-bottom: 3.75rem;
 }
 .articles__container {
-	min-width: 79.375rem;
+	max-width: 79.375rem;
 	margin: 0 auto;
 	padding-left: 0.9375rem;
 	padding-right: 0.9375rem;
@@ -105,6 +103,14 @@ body {
 }
 .articles__item:not(:last-child) {
 	margin-bottom: 1.25rem;
+}
+@media (max-width: 430px) {
+	.articles__item {
+		width: 100%;
+	}
+	.articles__items {
+		width: auto !important;
+	}
 }
 .article {
 

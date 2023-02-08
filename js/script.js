@@ -8,7 +8,7 @@ function imagesInit() {
 			const padding = imageItem.offsetHeight / imageItem.offsetWidth * 100;
 			image.style.paddingBottom = `${padding}%`;
 			imageItem.classList.add('init');
-		})
+		});
 	}
 }
 
